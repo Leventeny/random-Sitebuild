@@ -7,6 +7,88 @@
     <title>Food order sitebuild</title>
   </head>
   <body>
+    <div id="bodywrapper">
+      <div class="hero-wrapper">
+        <header>
+          <div class="headline">
+            <div class="brand">
+              <a href="">Fonditas</a>
+            </div>
+            <div class="navbar">
+              <a href="" >Rólunk</a>
+              <a href="" >Étlap</a>
+              <a href="" >Itallap</a>
+              <a href="" >Kapcsolat</a>
+            </div>
+          </div>
+          <div class="registration">
+            <button>Regisztráció</button>
+          </div>
+        </header>
+        <div class="hero-left">
+          <h1>Hírlevél feliratkozás</h1>
+          <div class="email-input">
+            <input type="text">
+            <input type="button" value="feliratkozás">
+          </div>
+        </div>
+        <div class="hero-right">
+          <img src="" alt="" class="top">
+          <img src="" alt="" class="middle">
+          <img src="" alt="" class="bottom">
+        </div>
+        <button class="circle">
+          arrow
+        </button>
+      </div>
+      <div class="main">
+        <h2>Kedvenc recepjeink</h2>
+        <div class="mainHeader">
+          <div class="mainHeader-text">
+            Legnépszerűbb receptjeinkből válogatás
+          </div>
+          <div class="button">
+            <button>Összes megtekintése</button>
+          </div>
+        </div>
+        <div class="recipe-wrapper" v-scope>
+          <div v-for class="cards">
+            <div class="card">
+              <div class="card-left">
+                <img src="" alt="" class="card-img">
+              </div>
+              <button class="favorite">
+                9.8 star
+              </button>
+              <div class="card-right">
+                <div class="card-type">
+                  Reggeli
+                </div>
+                <div class="card-title">
+                  Egészséges reggeli
+                </div>
+                <div class="card-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+                <div class="card-info">
+                  <div class="card-info-deliveryTime">
+                    20-30 mins
+                  </div>
+                  <div class="card-info-price">
+                    800 Ft
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="">Még több</button>
+        <img src="" alt="" class="linesInCards">
+      </div>
+      <footer>
+        
+      </footer>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

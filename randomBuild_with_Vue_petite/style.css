@@ -41,6 +41,7 @@ p {
 }
 
 body {
+  height: 100%;
   font-family: var(--ff-primary);
   font-weight: 300;
   font-size: 1.1rem;
@@ -48,3 +49,15 @@ body {
   text-align: center;
 }
 
+.headline {
+
+}
+
+.hero-img {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg"); */
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
