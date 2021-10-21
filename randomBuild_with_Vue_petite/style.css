@@ -1,15 +1,3 @@
-/* // display
-
-// positioning
-
-// box modell
-
-// type
-
-// manipulation
-
-// miscellanius  */
-
 :root {
   --clr-white-200: #ffffff;
   --clr-white-400: #f7f7f7;
@@ -22,6 +10,10 @@
   --clr-black-400: #303030;
   
   --clr-salmon: #ea8e77;
+
+  --clr-green-200: #5eaf53;
+  --clr-green-400: #56a749;
+  --clr-green-400: #48913f;
 
   --ff-primary: "Roboto", sans-serif;
 }
@@ -49,9 +41,73 @@ body {
   text-align: center;
 }
 
-.headline {
-
+.hero-wrapper {
+  display: block;
+  position: absolute;
+  background-color: var(--clr-green-200);
+  width: 100%;
+  min-height: 25em;
 }
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-top: 1em;
+  width: min(90%, 80rem);
+  height: 60px;
+  margin-inline: auto;
+  /* border: 1px solid black; */
+}
+
+.brand a {
+  color: var(--clr-white-200);
+  font-size: 2.4em;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  text-decoration: none;
+}
+
+.navbar a {
+  margin: 0 1em; 
+  color: var(--clr-white-400);
+  font-size: 0.85em;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.registration button {
+  vertical-align: center;
+  vertical-align: middle;
+  padding: 12px 24px;
+  background: var(--clr-salmon);
+  color: var(--clr-white-400);
+  border: none;
+  border-radius: 1.5em;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.registration button:hover, .registration button:active {
+  background: var(--clr-black-200);
+  color: var(--clr-white-400);
+  cursor: pointer;
+  }
+
+
+/* // display
+
+// positioning
+
+// box modell
+
+// type
+
+// manipulation
+
+// miscellanius  */
 
 .hero-img {
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg"); */
