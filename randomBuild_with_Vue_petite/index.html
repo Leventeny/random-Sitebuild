@@ -20,7 +20,7 @@
             <a href="" >Kapcsolat</a>
           </div>
           <div class="registration">
-            <button class="registrationButton" >Regisztráció</button>
+            <button class="registrationButton" id="open-button" >Regisztráció</button>
           </div>
         </header>
         <div class="hero-left">
@@ -110,6 +110,24 @@
           </div>
         </div>
       </footer>
+    </div>
+    <div class="modal-overlay" id="modal-overlay"></div>
+    <div class="modal" id="modal">
+      <div class="modal-header">Regisztráció</div>
+      <button id="close-button">Close</button>
+      <form action="" method="post">
+        <label for="fullName">Teljes név</label>
+        <input type="text" id="fullName" name="fullName" value="">
+        <label for="email">Email cím</label>
+        <input type="text" id="email" name="email" value="">
+        <label for="coupon">Kuponkód</label>
+        <input type="text" id="coupon" name="coupon" value="">
+        <label for="address">Irányítószám</label>
+        <input type="text" id="address" name="address" value="">
+      </form>
+      <div class="registration">
+        <button class="registrationButton" >Regisztráció</button>
+      </div>
     </div>
     <script type="module" src="/main.js"></script>
   </body>
