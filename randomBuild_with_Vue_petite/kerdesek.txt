@@ -1,0 +1,6 @@
+* Mobile view?
+
+* Form validation? Milyen validacio legyen? Melyik mezok required-k?
+
+* Kepek a hero imageben? Egy divben 3 kep egymasra helyezre? z-index hasznalatra teszt?
+
